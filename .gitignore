@@ -1,0 +1,10 @@
+erl_crash.dump
+ebin
+*.beam
+*~
+deps
+#*#
+.#*#
+bin
+log
+priv/mnesia/*.*

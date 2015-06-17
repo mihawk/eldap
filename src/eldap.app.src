@@ -1,0 +1,9 @@
+{application, eldap, [
+        {description, "LDAP api"},
+        {vsn, "15.04.66"},
+        {modules, [eldap, eldap_sup, 'ELDAPv3']},
+        {registered, [eldap_sup]},
+        {applications, [kernel, stdlib ]},
+        {mod, { eldap_app, []}},        
+        {env, []}
+    ]}.
