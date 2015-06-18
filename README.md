@@ -3,6 +3,9 @@ eldap
 
  extract eldap component from ejabberd 15.04.66
 
+Howto
+-----
+
 ## clone the repo
 
 ```bash
@@ -60,3 +63,18 @@ true
 (eldap@127.0.0.1)4> 
 ```
  
+
+
+Credits
+-------
+
+* [ProcessOne](https://www.process-one.net/en/ejabberd)
+* chan sisowath (extracting/packaging)
+
+Links
+-----
+
+- Documentation: http://docs.ejabberd.im
+- Community site: https://www.ejabberd.im
+- ejabberd commercial offering and support: https://www.process-one.net/en/ejabberd
+- [active directory information](http://social.technet.microsoft.com/wiki/contents/articles/5392.active-directory-ldap-syntax-filters.aspx)
