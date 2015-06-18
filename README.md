@@ -55,8 +55,8 @@ true
   $ cd eldap
   $ ./start.sh
 (eldap@127.0.0.1)3> eldap_api:fetch_user(default, <<"username">>).                    
-{ok,[{attributes,[{<<"sAMAccountName">>,[<<"chan">>]}]},
-     {object_name,<<"CN=chansi,CN=Users,DC=vikvon,DC=net">>}]}
+{ok,[{attributes,[{<<"sAMAccountName">>,[<<"username">>]}]},
+     {object_name,<<"CN=firstname lastname,CN=Users,DC=MyDomain,DC=com">>}]}
 (eldap@127.0.0.1)4> 
 ```
  
